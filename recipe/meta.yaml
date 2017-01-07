@@ -1,6 +1,6 @@
 {% set version = "0.4.9" %}
 package:
-  name: sphinx-bootstrap-theme
+  name: sphinx_bootstrap_theme
   version: {{ version }}
 
 source:
