@@ -1,6 +1,6 @@
 {% set version = "0.4.9" %}
 package:
-  name: sphinx-bootstrap-theme
+  name: sphinx_bootstrap_theme
   version: {{ version }}
 
 source:
@@ -26,9 +26,18 @@ test:
     - sphinx_bootstrap_theme
 
 about:
-  home: http://ryan-roemer.github.com/sphinx-bootstrap-theme/README.html
-  license: MIT License
+  home: http://ryan-roemer.github.com/sphinx-bootstrap-theme/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
   summary: 'Sphinx Bootstrap Theme.'
+  description: |
+      This Sphinx theme integrates the Bootstrap CSS / JavaScript framework
+      with various layout options, hierarchical menu navigation, and
+      mobile-friendly responsive design. It is configurable, extensible, and
+      can use any number of different Bootswatch CSS themes.
+  doc_url: http://ryan-roemer.github.io/sphinx-bootstrap-theme/
+  dev_url: http://ryan-roemer.github.com/sphinx-bootstrap-theme/
 
 extra:
   recipe-maintainers:

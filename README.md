@@ -1,4 +1,4 @@
-About sphinx-bootstrap-theme
+About sphinx_bootstrap_theme
 ============================
 
 Home: http://ryan-roemer.github.com/sphinx-bootstrap-theme/README.html
@@ -11,27 +11,38 @@ Summary: Sphinx Bootstrap Theme.
 
 
 
-Installing sphinx-bootstrap-theme
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sphinx-bootstrap-theme-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sphinx-bootstrap-theme-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/sphinx-bootstrap-theme-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sphinx-bootstrap-theme-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sphinx-bootstrap-theme-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sphinx-bootstrap-theme-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinx_bootstrap_theme/badges/version.svg)](https://anaconda.org/conda-forge/sphinx_bootstrap_theme)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinx_bootstrap_theme/badges/downloads.svg)](https://anaconda.org/conda-forge/sphinx_bootstrap_theme)
+
+Installing sphinx_bootstrap_theme
 =================================
 
-Installing `sphinx-bootstrap-theme` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `sphinx_bootstrap_theme` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `sphinx-bootstrap-theme` can be installed with:
+Once the `conda-forge` channel has been enabled, `sphinx_bootstrap_theme` can be installed with:
 
 ```
-conda install sphinx-bootstrap-theme
+conda install sphinx_bootstrap_theme
 ```
 
-It is possible to list all of the versions of `sphinx-bootstrap-theme` available on your platform with:
+It is possible to list all of the versions of `sphinx_bootstrap_theme` available on your platform with:
 
 ```
-conda search sphinx-bootstrap-theme --channel conda-forge
+conda search sphinx_bootstrap_theme --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -68,30 +79,18 @@ Terminology
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
 
-Current build status
-====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sphinx-bootstrap-theme-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sphinx-bootstrap-theme-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/sphinx-bootstrap-theme-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sphinx-bootstrap-theme-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sphinx-bootstrap-theme-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sphinx-bootstrap-theme-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinx-bootstrap-theme/badges/version.svg)](https://anaconda.org/conda-forge/sphinx-bootstrap-theme)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinx-bootstrap-theme/badges/downloads.svg)](https://anaconda.org/conda-forge/sphinx-bootstrap-theme)
-
-
-Updating sphinx-bootstrap-theme-feedstock
+Updating sphinx_bootstrap_theme-feedstock
 =========================================
 
-If you would like to improve the sphinx-bootstrap-theme recipe or build a new
+If you would like to improve the sphinx_bootstrap_theme recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/sphinx-bootstrap-theme-feedstock are
+Note that all branches in the conda-forge/sphinx_bootstrap_theme-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
