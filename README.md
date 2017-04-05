@@ -1,14 +1,18 @@
 About sphinx_bootstrap_theme
 ============================
 
-Home: http://ryan-roemer.github.com/sphinx-bootstrap-theme/README.html
+Home: http://ryan-roemer.github.com/sphinx-bootstrap-theme/
 
-Package license: MIT License
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
 Summary: Sphinx Bootstrap Theme.
 
+This Sphinx theme integrates the Bootstrap CSS / JavaScript framework
+with various layout options, hierarchical menu navigation, and
+mobile-friendly responsive design. It is configurable, extensible, and
+can use any number of different Bootswatch CSS themes.
 
 
 Current build status
