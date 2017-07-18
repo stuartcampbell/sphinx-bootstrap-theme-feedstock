@@ -6,7 +6,7 @@ package:
 source:
   url: https://github.com/ryan-roemer/sphinx-bootstrap-theme/archive/v{{ version }}.tar.gz
   fn: sphinx-bootstrap-theme-v{{ version }}.tar.gz
-  sha256: b16e0ee97afe142e0b98e33907cf27233dc15c8cdd29fb45e7a55c32df6bfd2a
+  sha256: bec03024dae006b0f3ff0b624adaf66b4bf91763b6ff84cae7b5f9fe71ad546c
 
 build:
   preserve_egg_dir: True
